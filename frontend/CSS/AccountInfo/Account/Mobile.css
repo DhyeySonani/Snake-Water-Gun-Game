@@ -1,0 +1,12 @@
+#email_div, #username_div, #password_div {
+    grid-template-columns: unset;
+}
+
+#DelAcc {
+    left: 32%;
+}
+
+#iframe_pic {
+    left: 6vw;
+    width: 88vw;
+}

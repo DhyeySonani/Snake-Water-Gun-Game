@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    text-align: center;
+}
+
+#back_arrow:hover {
+    border: 2px solid blue;
+    border-radius: 50px;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+#email {
+    width: 50vw;
+    text-align: center;
+    position: relative;
+    left: 26vw;
+}
+
+#submit {
+    position: relative;
+    width: 75px;
+    left: 43vw;
+    top: 5vh;
+    font-size: larger;
+}

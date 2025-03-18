@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 5vw;
+    position: relative;
+    top: 3vh;
+    align-items: center;
+    max-width: 100vw;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#accinfo, #game, #stats {
+    background-color: lightyellow;
+    cursor: pointer;
+    border: 2px solid lightyellow;
+    border-radius: 40px;
+    text-align: center;
+    height: 250px;
+    width: 25vw;
+    margin-top: 65px;
+    font-size: x-large;
+    align-content: center;
+}
+
+#accinfo {
+    margin-left: 75px;
+}
+
+#stats {
+    margin-right: 75px;
+}

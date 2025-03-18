@@ -1,0 +1,51 @@
+body {
+    overflow: hidden;
+}
+
+
+#div1 {
+    margin-top: -25px;
+}
+
+section {
+    margin-left: 35px;
+}
+
+#div1,
+#div2,
+#div3 {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    display: block;
+}
+
+#div2 {
+    float: right;
+    position: relative;
+    top: -22vh;
+    left: -23vw;
+}
+
+#password {
+    width: 32vw;
+}
+
+#passicon {
+    position: relative;
+    float: right;
+    right: -75px;
+    top: -25px;
+}
+
+#div3 {
+    left: 33vw;
+    position: relative;
+}
+
+#fillfield {
+    margin-left: 71px
+}
+
+h4 {
+    margin-left: 60px;
+}

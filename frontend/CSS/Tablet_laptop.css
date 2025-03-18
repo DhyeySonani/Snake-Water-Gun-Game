@@ -1,0 +1,30 @@
+*{
+    font-size: medium;
+}
+
+#game_play > h1 {
+    font-size: 50px;
+}
+
+#snake_img {
+    height: 150px;
+    width: 200px;
+}
+
+#water_img {
+    height: 150px;
+    width: 200px;
+}
+
+#gun_img {
+    height: 150px;
+    width: 200px;
+}
+
+#detail_result{
+    padding-bottom: 25px;
+}
+
+footer {
+    padding-top: 50px;
+} 

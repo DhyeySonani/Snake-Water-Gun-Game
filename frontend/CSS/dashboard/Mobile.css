@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: none;
+    justify-content: center;
+    position:unset;
+    margin-top: 0px;
+    row-gap: 10vh;
+    overflow-y: unset;
+}
+
+#accinfo, #game, #stats {
+    margin-top: 15px;
+    height: unset;
+    font-size: medium;
+    width: 50vw
+}
+
+#accinfo {
+    margin-left: 0px;
+}
+
+#stats {
+    margin-right: 0px;
+}

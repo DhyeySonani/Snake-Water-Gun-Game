@@ -1,0 +1,35 @@
+h1 {
+    font-size: 65px;
+}
+
+#div1 {
+    margin-left: 20vw;
+    margin-top: 10px;
+}
+
+#username {
+    width: 40vw;
+}
+
+input {
+    max-height: unset;
+    height: 36px;
+}
+
+#div2 {
+    float: unset;
+    position: unset;
+    margin-left: 20vw;
+}
+
+#div1, #div2, #div3 {
+    font-size: 60px;
+}
+
+#fillfield {
+    margin-left: 0px
+}
+
+h4 {
+    font-size: xx-large;
+}

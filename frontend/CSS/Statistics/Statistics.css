@@ -1,0 +1,20 @@
+#back_arrow:hover {
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    text-align: center;
+}
+
+#errmsg {
+    display: none;
+    color: red;
+    text-align: center;
+}

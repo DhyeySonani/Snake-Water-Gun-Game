@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Information</title>
+    <link rel="stylesheet" href="../../CSS/AccountInfo/Account/AccountInfo.css">
+    <link rel="stylesheet" href="../../CSS/AccountInfo/Account/Mobile.css" media="screen and (max-width: 767px)">
+    <script src="../../JavaScript/AccountInfo/AccountInfo.js" defer></script>
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="50" height="50" id="back_arrow">
+        <path
+            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+    </svg>
+    <div id="pic_div">
+        <iframe src='/AccountInfo/Update/Profile_pic' id="iframe_pic"></iframe>
+        <img src="" alt="hi" id="ProPic">
+        <button id="updProPic">Update Profile picture</button>
+        <button id="delProPic">Delete Profile picture</button>
+    </div>
+
+
+    <div id="email_div">
+        <h3>Email id: </h3>
+        <p id="email"></p>
+        <button id="updEmail">Update Email Address</button>
+        <iframe src="/AccountInfo/Update/Email" id="iframe_email"></iframe>
+    </div>
+
+    <div id="username_div">
+        <h3>User Name:</h3>
+        <p id="username"></p>
+        <button id="updUserName">Update User Name</button>
+        <iframe src="/AccountInfo/Update/Username" id="iframe_username"></iframe>
+    </div>
+
+    <div id="password_div">
+        <p id="password"> Note : That password is stored in Hashed format and cannnot to shown for security reasons</p>
+        <button id="updpassword">Update password</button>
+        <iframe src="/AccountInfo/Update/Password" id="iframe_password"></iframe>
+    </div>
+
+    <div id="buttons">
+        <button id="DelAcc">Delete Account</button>
+        <button id="logout">Logout</button>
+    </div>
+
+</body>
+
+</html>

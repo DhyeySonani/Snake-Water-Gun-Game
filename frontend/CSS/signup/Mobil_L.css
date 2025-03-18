@@ -1,0 +1,51 @@
+#div1,
+#div2,
+#div3,
+#div4 {
+    margin-left: 10vw;
+}
+
+#div1 {
+    position: relative;
+    top: -6vh;
+}
+
+#div2 {
+    position: relative;
+    float: right;
+    right: 47vw;
+    margin-top: -88px;
+}
+
+#div3 {
+    position: relative;
+    top: -5vh;
+}
+
+#password {
+    top: -75%;
+    position: relative;
+    float: right;
+    right: -40vw;
+}
+
+#passicon {
+    right: -135%;
+    top: -125%;
+}
+
+#submit {
+    position: relative;
+    left: 15vw;
+    top: -8vh;
+}
+
+#fillfield {
+    font-size: 5vh;
+    position: relative;
+    top: -18vh;
+}
+
+h4 {
+    top: -20vh;
+}

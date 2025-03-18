@@ -1,0 +1,28 @@
+#div1 , #div2, #div3 {
+    margin-left: 25%;
+    margin-bottom: 0%;
+}
+
+#div3 {
+    max-width: 10%;
+    position: relative;
+    left: 15%;
+}
+
+#passicon {
+    height: 20px;
+    width: 20px;
+    float: right;
+    position: relative;
+    right: -16%;
+    top: -39%;
+}
+
+#password {
+    width: 90%;
+    max-height: 70%;
+}
+
+#fillfield {
+    margin-left: 0px;
+}

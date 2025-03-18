@@ -1,0 +1,118 @@
+*{
+    font-size:xx-large;
+    color: crimson;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/3466355/pexels-photo-3466355.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=279.825&fit=crop&h=453.05);
+    background-size: cover;
+    overflow-x: hidden;
+    max-width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#back_arrow:hover {
+    border: 2px solid blue;
+    border-radius: 50px;
+}
+
+#game_area {
+    text-align: center;
+}
+
+#snake_water_gun {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    cursor: pointer;
+}
+
+#snake {
+    margin-top: 150px;
+}
+
+#snake_img {
+    height: 200px;
+    width: 250px;
+}
+
+#water_img {
+    height: 200px;
+    width: 250px;
+}
+
+#gun {
+    margin-top: 150px;
+}
+
+#gun_img {
+    height: 200px;
+    width: 250px;
+}
+
+#game_area_again {
+    display: none;
+    text-align: center;
+}
+
+#alert_msg {
+    display: none;
+    text-align: center;
+}
+
+#game_again_yes{
+    background: none;
+    border: none;
+}
+
+#game_again_no{
+    background: none;
+    border: none;
+}
+
+#result {
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+
+#won_lost_draw_total {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+#detail_result {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding-bottom: 50px;
+}
+
+#Statistics {
+    background: none;
+    border: none;
+}
+
+.thank_msg {
+    color: darkblue;
+    display: none;
+    text-align: center;
+}
+
+#errmsg {
+    display: none;
+}
+#Statistics:hover {
+    color: aqua;
+}
+
+footer {
+    color: wheat;
+    padding-top: 50px;
+    position: fixed;
+    left:50%;
+    transform: translate(-50%);
+    bottom: 10px;
+}

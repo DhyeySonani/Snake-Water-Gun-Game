@@ -1,0 +1,48 @@
+*{
+    font-size: medium;
+}
+
+#game_play > h1 {
+    font-size: 50px;
+}
+
+body{
+    overflow-x:clip;
+    /* background-position: right center; */
+    background-size: cover;
+    /* width: 100vw; */
+}
+
+#game_play > h1{
+    text-align:unset;
+}
+
+#game_area > p{
+    text-align: unset;
+}
+
+#snake_water_gun {
+    margin-top: 50px;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, auto);
+}
+
+#snake {
+    margin-top: 0px;
+}
+
+#gun{
+    margin-top: 0px;
+}
+
+#won_lost_draw_total{
+    grid-template-columns: repeat(2, auto);
+}
+
+#detail_result{
+    padding-bottom: 25px;
+}
+
+footer {
+    left: 45%;
+}
